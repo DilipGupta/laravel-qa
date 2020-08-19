@@ -43,9 +43,4 @@ class User extends Authenticatable
         return $this->hasMany(Question::class);
     }
 
-    //Mutator always start with set and then column name and then attribute keywords
-    public function setTitleAttribute($value){
-        $this->attributes['title']=$value;
-        $this->attributes['slug']=Str::slug($value);
-    }
 }
