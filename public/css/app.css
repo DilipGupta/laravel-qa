@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+@charset "UTF-8";
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -10891,3 +10893,36 @@ a.text-dark:focus {
   display: inline;
 }
 
+.counters{
+  margin-right: 30px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.counters strong{
+  display: block;
+  font-size: 2em;
+}
+
+.vote, .answer{
+ width:60px;
+ height: 60px;
+}
+
+.unanswered{
+  border:none;
+}
+
+.answered{
+  border:1px solid green;
+  color: green;
+}
+
+.answered-accepted{
+  background:green;
+  color: white;
+}
+
+.view{
+  margin-top: 10px;
+}
