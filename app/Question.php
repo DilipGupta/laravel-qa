@@ -18,6 +18,7 @@ class Question extends Model
         $this->attributes['slug']=Str::slug($value);
     }
 
+    //Accessor always start with get and then column name or any name that you are using to access this function and then attribute keywords
     public function getUrlAttribute(){
         return route('questions.show',$this->id);
     }
