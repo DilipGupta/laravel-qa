@@ -65,6 +65,7 @@
                                         @csrf
                                     </form>
                                 </div>
+                                
                             </li>
                         @endguest
                     </ul>
@@ -76,5 +77,6 @@
             @yield('content')
         </main>
     </div>
+
 </body>
 </html>
