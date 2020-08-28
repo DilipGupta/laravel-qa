@@ -10930,3 +10930,38 @@ a.text-dark:focus {
 form.form-delete{
   display: inline;
 }
+
+.vote-controls{
+  min-width:60px;
+  margin-right:30px;
+  color: gray;
+  text-align:center;
+}
+
+.vote-controls span{
+  display: block;
+}
+.votes-count{
+  font-size: 24px;
+}
+
+.favorite-count{
+  font-size:12px;
+}
+
+.vote-controls a{
+  display: block;
+  cursor: pointer;
+}
+
+.vote-controls .vote-up{
+  color:darkslategray;
+}
+
+.vote-controls .favorited, .favorited:hover{
+  color: #edb943e0 !important;
+}
+
+a.vote-accepted{
+  color:green;
+}
