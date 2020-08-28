@@ -44,7 +44,7 @@ class Question extends Model
         return Parsedown::instance()->text($this->body);
     }
 
-    public function answers()
+    public function answer()
     {
         return $this->hasmany(Answer::class);
     }
