@@ -3,6 +3,7 @@
 namespace App\Policies;
 
 use App\Answer;
+use App\Question;
 use App\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
