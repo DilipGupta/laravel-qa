@@ -52,6 +52,11 @@ class User extends Authenticatable
         return $this->hasmany(Answer::class);
     }
 
+    public function favorites()
+    {
+        return $this->belongsToMany(Question::class, 'favorites')->withTimestamps();
+    }
+
     public function getAvatarAttribute()
     {
         $email = $this->email;
